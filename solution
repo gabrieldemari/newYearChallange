@@ -4,7 +4,7 @@
 function minimumBribes($q) {
     $bribe = 0;
     $chaotic = false;
-    $n = (count($q));
+    $n = count($q);
     for($i = 0; $i < $n; $i++){
         if($q[$i]-($i+1) > 2){
             $chaotic = true;
